@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+    <title>Vision</title>
+    </head>
+    <body background="https://www.hdnicewallpapers.com/Walls/Big/Abstract/White_Texture_Pattern_Abstract_4K_Wallpaper.jpg">
+      <center><h1> <p>Hello {{result.nm}}!</p></h1>
+       <h3>Kindly follow the given instructions to take the test</h3> </center>
+       <h4>
+       <ol><li>Sit at a distance of 50 - 60 cm from the screen</li>
+       <li>Remove your specs if you are wearing</li>
+       <li>Try to focus on the text that will be displayed on the screen till the end of the test</li>
+       <li>Avoid multiple faces in the screen</li>
+      <li>This test will about 5 mins</li>
+   <li>Close your right eye for first five images and then your right eye for next five images.</li>
+<li>Click on next to move to next image</li></ol></h4>
+       <br><br>
+    <center> <button type="submit" onclick="window.location.href='{{ url_for( 'stanford_page' ) }}';">Start Test</button>  
+      </center>    
+   </body>
+</html>

@@ -1,0 +1,54 @@
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+	background-image:url('https://www.hdnicewallpapers.com/Walls/Big/Abstract/White_Texture_Pattern_Abstract_4K_Wallpaper.jpg'); 
+  padding-top: 100pxs;
+}
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.container {
+    width: 95%;
+    max-width: 1160px;
+    margin: auto;
+}
+.animated-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1 {
+    color: #4b00ff;
+    font-weight: 500;
+}
+span#words {
+    font-weight: bolder;
+}
+
+/*css/style.css */
+
+.slider{
+	margin:50px auto;
+	width:50%;
+}
+ 
+.img-box img{
+	width:100%;
+}
+
+.btn{
+	border:none;
+	outline:none;
+	background:#888;
+	padding:10px 30px;
+	font-size: 20px;
+	color:#ddd;
+	cursor: pointer;
+	margin:10px auto;			 
+}
+
+.btn:hover{
+	background: #111;
+}

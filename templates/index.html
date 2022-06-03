@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Vision</title>
+    </head>
+
+    <body background="https://www.hdnicewallpapers.com/Walls/Big/Abstract/White_Texture_Pattern_Abstract_4K_Wallpaper.jpg">
+    <center>     
+       <br><br>
+       <h1>Refractive error detection in eyes</h1>
+           <br> 
+      <form action = "http://127.0.0.1:5000/newyork" method = "post">  
+      <h3>     
+<p >Enter name:<input type = "text" name = "nm" /></p>
+<p>Enter age:<input type="number" name= "ag"/></p>
+<label> Enter specs usage: </label>  
+<select>  
+<option value = "0"> NO   
+</option>  
+<option value = "1"> YES   
+</option>    
+</select>  
+<br><br><br>
+<button type="submit" onclick="window.location.href='{{ url_for( 'newyork_page' ) }}';">Predict</button>
+</h2>
+</form>   
+    </center> 
+   </body>
+</html>
